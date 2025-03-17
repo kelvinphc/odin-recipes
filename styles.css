@@ -1,12 +1,32 @@
 .title {
-    background-color: #be9111;
     text-align: center;
-    font-size: 64px;
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight: 700;
 }
 
+h1.title {
+    background-color: #be9111;
+    font-size: 64px;
+}
+
 #homepage-index {
     font-size: 24px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.title {
+    background-color: #ff000050;
+    font-size: 36px;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+
+p.description, ul.ingredients, ol.steps {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
