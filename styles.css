@@ -1,21 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: azure;
+}
+
 .title {
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight: 700;
+    margin: 50px 200px;
 }
 
 h1.title {
-    background-color: #be9111;
+    background-color: skyblue;
     font-size: 64px;
 }
 
-#homepage-index {
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 h2.title {
-    background-color: #ff000050;
+    background-color: skyblue;
     font-size: 36px;
 }
 
@@ -29,10 +37,41 @@ h2.title {
 p.description, ul.ingredients, ol.steps {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 200px; 
 }
 
 h3.title {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+}
+
+img.index.img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.card {
+    height: 460px;
+    width: 400px;
+    display: inline-block;
+    margin: 10px;
+}
+
+div.index {
+    margin: 100px 200px;
+}
+
+p.recipe-name {
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 60px;
+    padding: 18px;
+    background-color: skyblue;
+    margin: 0;
 }
